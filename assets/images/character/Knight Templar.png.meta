@@ -1,0 +1,134 @@
+{
+  "ver": "1.0.27",
+  "importer": "image",
+  "imported": true,
+  "uuid": "e7d263c0-7cc7-4256-8dbf-548b54efff25",
+  "files": [
+    ".json",
+    ".png"
+  ],
+  "subMetas": {
+    "6c48a": {
+      "importer": "texture",
+      "uuid": "e7d263c0-7cc7-4256-8dbf-548b54efff25@6c48a",
+      "displayName": "Knight Templar",
+      "id": "6c48a",
+      "name": "texture",
+      "userData": {
+        "wrapModeS": "clamp-to-edge",
+        "wrapModeT": "clamp-to-edge",
+        "imageUuidOrDatabaseUri": "e7d263c0-7cc7-4256-8dbf-548b54efff25",
+        "isUuid": true,
+        "visible": false,
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f9941": {
+      "importer": "sprite-frame",
+      "uuid": "e7d263c0-7cc7-4256-8dbf-548b54efff25@f9941",
+      "displayName": "Knight Templar",
+      "id": "f9941",
+      "name": "spriteFrame",
+      "userData": {
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 4,
+        "offsetY": 0.5,
+        "trimX": 40,
+        "trimY": 39,
+        "width": 1028,
+        "height": 821,
+        "rawWidth": 1100,
+        "rawHeight": 900,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [
+            -514,
+            -410.5,
+            0,
+            514,
+            -410.5,
+            0,
+            -514,
+            410.5,
+            0,
+            514,
+            410.5,
+            0
+          ],
+          "indexes": [
+            0,
+            1,
+            2,
+            2,
+            1,
+            3
+          ],
+          "uv": [
+            40,
+            861,
+            1068,
+            861,
+            40,
+            40,
+            1068,
+            40
+          ],
+          "nuv": [
+            0.03636363636363636,
+            0.044444444444444446,
+            0.9709090909090909,
+            0.044444444444444446,
+            0.03636363636363636,
+            0.9566666666666667,
+            0.9709090909090909,
+            0.9566666666666667
+          ],
+          "minPos": [
+            -514,
+            -410.5,
+            0
+          ],
+          "maxPos": [
+            514,
+            410.5,
+            0
+          ]
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "e7d263c0-7cc7-4256-8dbf-548b54efff25@6c48a",
+        "atlasUuid": "",
+        "trimType": "auto"
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "type": "sprite-frame",
+    "fixAlphaTransparencyArtifacts": false,
+    "hasAlpha": true,
+    "redirect": "e7d263c0-7cc7-4256-8dbf-548b54efff25@6c48a"
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "ver": "1.0.27",
+  "importer": "image",
+  "imported": true,
+  "uuid": "ac708fff-6a91-43fd-867c-a264c75b0b8d",
+  "files": [
+    ".json",
+    ".png"
+  ],
+  "subMetas": {
+    "6c48a": {
+      "importer": "texture",
+      "uuid": "ac708fff-6a91-43fd-867c-a264c75b0b8d@6c48a",
+      "displayName": "Revolver-Colt45",
+      "id": "6c48a",
+      "name": "texture",
+      "userData": {
+        "wrapModeS": "clamp-to-edge",
+        "wrapModeT": "clamp-to-edge",
+        "imageUuidOrDatabaseUri": "ac708fff-6a91-43fd-867c-a264c75b0b8d",
+        "isUuid": true,
+        "visible": false,
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f9941": {
+      "importer": "sprite-frame",
+      "uuid": "ac708fff-6a91-43fd-867c-a264c75b0b8d@f9941",
+      "displayName": "Revolver-Colt45",
+      "id": "f9941",
+      "name": "spriteFrame",
+      "userData": {
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": -7.5,
+        "offsetY": -4,
+        "trimX": 2,
+        "trimY": 11,
+        "width": 45,
+        "height": 18,
+        "rawWidth": 64,
+        "rawHeight": 32,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [
+            -22.5,
+            -9,
+            0,
+            22.5,
+            -9,
+            0,
+            -22.5,
+            9,
+            0,
+            22.5,
+            9,
+            0
+          ],
+          "indexes": [
+            0,
+            1,
+            2,
+            2,
+            1,
+            3
+          ],
+          "uv": [
+            2,
+            21,
+            47,
+            21,
+            2,
+            3,
+            47,
+            3
+          ],
+          "nuv": [
+            0.03125,
+            0.09375,
+            0.734375,
+            0.09375,
+            0.03125,
+            0.65625,
+            0.734375,
+            0.65625
+          ],
+          "minPos": [
+            -22.5,
+            -9,
+            0
+          ],
+          "maxPos": [
+            22.5,
+            9,
+            0
+          ]
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "ac708fff-6a91-43fd-867c-a264c75b0b8d@6c48a",
+        "atlasUuid": "",
+        "trimType": "auto"
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "type": "sprite-frame",
+    "fixAlphaTransparencyArtifacts": false,
+    "hasAlpha": true,
+    "redirect": "ac708fff-6a91-43fd-867c-a264c75b0b8d@6c48a"
+  }
+}

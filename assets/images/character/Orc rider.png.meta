@@ -1,0 +1,134 @@
+{
+  "ver": "1.0.27",
+  "importer": "image",
+  "imported": true,
+  "uuid": "133a3cfa-80a5-4e7d-8305-9070f1eec271",
+  "files": [
+    ".json",
+    ".png"
+  ],
+  "subMetas": {
+    "6c48a": {
+      "importer": "texture",
+      "uuid": "133a3cfa-80a5-4e7d-8305-9070f1eec271@6c48a",
+      "displayName": "Orc rider",
+      "id": "6c48a",
+      "name": "texture",
+      "userData": {
+        "wrapModeS": "clamp-to-edge",
+        "wrapModeT": "clamp-to-edge",
+        "imageUuidOrDatabaseUri": "133a3cfa-80a5-4e7d-8305-9070f1eec271",
+        "isUuid": true,
+        "visible": false,
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f9941": {
+      "importer": "sprite-frame",
+      "uuid": "133a3cfa-80a5-4e7d-8305-9070f1eec271@f9941",
+      "displayName": "Orc rider",
+      "id": "f9941",
+      "name": "spriteFrame",
+      "userData": {
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 2.5,
+        "offsetY": 6,
+        "trimX": 37,
+        "trimY": 28,
+        "width": 1031,
+        "height": 732,
+        "rawWidth": 1100,
+        "rawHeight": 800,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [
+            -515.5,
+            -366,
+            0,
+            515.5,
+            -366,
+            0,
+            -515.5,
+            366,
+            0,
+            515.5,
+            366,
+            0
+          ],
+          "indexes": [
+            0,
+            1,
+            2,
+            2,
+            1,
+            3
+          ],
+          "uv": [
+            37,
+            772,
+            1068,
+            772,
+            37,
+            40,
+            1068,
+            40
+          ],
+          "nuv": [
+            0.03363636363636364,
+            0.05,
+            0.9709090909090909,
+            0.05,
+            0.03363636363636364,
+            0.965,
+            0.9709090909090909,
+            0.965
+          ],
+          "minPos": [
+            -515.5,
+            -366,
+            0
+          ],
+          "maxPos": [
+            515.5,
+            366,
+            0
+          ]
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "133a3cfa-80a5-4e7d-8305-9070f1eec271@6c48a",
+        "atlasUuid": "",
+        "trimType": "auto"
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "type": "sprite-frame",
+    "fixAlphaTransparencyArtifacts": false,
+    "hasAlpha": true,
+    "redirect": "133a3cfa-80a5-4e7d-8305-9070f1eec271@6c48a"
+  }
+}

@@ -90,12 +90,12 @@ export class Joystick extends Component {
 
     // 底座
     this.g.lineWidth = 4
-    this.g.strokeColor = Color.WHITE
+    this.g.strokeColor = Color.BLACK
     this.g.circle(0, 0, this.radius)
     this.g.stroke()
 
     // 摇杆
-    this.g.fillColor = new Color(180, 180, 180, 255)
+    this.g.fillColor = new Color(0, 0, 0, 255)
     this.g.circle(this.stickPos.x, this.stickPos.y, this.stickRadius)
     this.g.fill()
   }
@@ -103,7 +103,7 @@ export class Joystick extends Component {
   getJoystickDirection(dir: Vec2): Direction | null {
     if (dir.length() < 0.2) return Direction.idle
 
-    let angle = (Math.atan2(dir.x, dir.y) * 180) / Math.PI
+    let angle = (Math.atan2(dir.y, dir.x) * 180) / Math.PI
     if (angle < 0) angle += 360
 
     return this.angleToDirection(angle)

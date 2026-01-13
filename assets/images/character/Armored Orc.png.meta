@@ -1,0 +1,134 @@
+{
+  "ver": "1.0.27",
+  "importer": "image",
+  "imported": true,
+  "uuid": "e8f0f6a8-c344-42c2-a1e1-53b75c63f5bb",
+  "files": [
+    ".json",
+    ".png"
+  ],
+  "subMetas": {
+    "6c48a": {
+      "importer": "texture",
+      "uuid": "e8f0f6a8-c344-42c2-a1e1-53b75c63f5bb@6c48a",
+      "displayName": "Armored Orc",
+      "id": "6c48a",
+      "name": "texture",
+      "userData": {
+        "wrapModeS": "clamp-to-edge",
+        "wrapModeT": "clamp-to-edge",
+        "imageUuidOrDatabaseUri": "e8f0f6a8-c344-42c2-a1e1-53b75c63f5bb",
+        "isUuid": true,
+        "visible": false,
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f9941": {
+      "importer": "sprite-frame",
+      "uuid": "e8f0f6a8-c344-42c2-a1e1-53b75c63f5bb@f9941",
+      "displayName": "Armored Orc",
+      "id": "f9941",
+      "name": "spriteFrame",
+      "userData": {
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 3.5,
+        "offsetY": 1.5,
+        "trimX": 40,
+        "trimY": 37,
+        "width": 827,
+        "height": 723,
+        "rawWidth": 900,
+        "rawHeight": 800,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [
+            -413.5,
+            -361.5,
+            0,
+            413.5,
+            -361.5,
+            0,
+            -413.5,
+            361.5,
+            0,
+            413.5,
+            361.5,
+            0
+          ],
+          "indexes": [
+            0,
+            1,
+            2,
+            2,
+            1,
+            3
+          ],
+          "uv": [
+            40,
+            763,
+            867,
+            763,
+            40,
+            40,
+            867,
+            40
+          ],
+          "nuv": [
+            0.044444444444444446,
+            0.05,
+            0.9633333333333334,
+            0.05,
+            0.044444444444444446,
+            0.95375,
+            0.9633333333333334,
+            0.95375
+          ],
+          "minPos": [
+            -413.5,
+            -361.5,
+            0
+          ],
+          "maxPos": [
+            413.5,
+            361.5,
+            0
+          ]
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "e8f0f6a8-c344-42c2-a1e1-53b75c63f5bb@6c48a",
+        "atlasUuid": "",
+        "trimType": "auto"
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "type": "sprite-frame",
+    "fixAlphaTransparencyArtifacts": false,
+    "hasAlpha": true,
+    "redirect": "e8f0f6a8-c344-42c2-a1e1-53b75c63f5bb@6c48a"
+  }
+}
