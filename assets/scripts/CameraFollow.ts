@@ -6,9 +6,6 @@ export class CameraFollow extends Component {
   @property(Node)
   target: Node = null!
 
-  @property(Node)
-  joystick: Node = null!
-
   private offset = new Vec3()
 
   start() {
@@ -25,17 +22,10 @@ export class CameraFollow extends Component {
     if (!this.target) return
 
     const targetPos = this.target.worldPosition
-    const joystickPos = this.joystick.worldPosition
     this.node.setWorldPosition(
       targetPos.x + this.offset.x,
       targetPos.y + this.offset.y,
       this.node.worldPosition.z
-    )
-    
-    this.joystick.setWorldPosition(
-      this.offset.x + 100,
-      this.offset.y + 100,
-      this.joystick.worldPosition.z
     )
   }
 }

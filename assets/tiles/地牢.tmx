@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="100" height="100" tilewidth="8" tileheight="8" infinite="0" nextlayerid="14" nextobjectid="94">
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="100" height="100" tilewidth="8" tileheight="8" infinite="0" nextlayerid="14" nextobjectid="101">
  <tileset firstgid="1" source="地牢.tsx"/>
  <layer id="1" name="ground" width="100" height="100">
   <data encoding="csv">
@@ -481,6 +481,13 @@
     <property name="type" value="collision"/>
    </properties>
   </object>
+  <object id="94" x="1" y="427" width="235" height="39"/>
+  <object id="95" x="292" y="428" width="216" height="42"/>
+  <object id="96" x="565" y="427" width="230" height="34"/>
+  <object id="97" x="3" y="468" width="13" height="331"/>
+  <object id="98" x="24" y="596" width="86" height="46"/>
+  <object id="99" x="677" y="591" width="118" height="34"/>
+  <object id="100" x="786" y="461" width="10" height="318"/>
  </objectgroup>
  <objectgroup id="13" name="spawn_points">
   <object id="88" x="376" y="32" width="64" height="64">
